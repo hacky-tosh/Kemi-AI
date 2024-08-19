@@ -1,9 +1,5 @@
-## Kemo-AI
+# Kemo-AI
 
-
-# FastAPI Course Management API
-
-This FastAPI application provides endpoints for managing courses and chapters, including retrieving courses, getting course overviews, retrieving chapter information, and rating chapters.
 
 ## Endpoints
 
@@ -19,3 +15,21 @@ This FastAPI application provides endpoints for managing courses and chapters, i
 
   ```http
   GET /courses?sort_by=date&domain=Programming
+
+
+
+
+  
+### 2. Get Course Overview
+
+- **Route**: `/course-overview`
+- **Method**: `GET`
+- **Query Parameters**:
+   `course_name` (required): The name of the course to retrieve.
+- **Example**:
+
+  ```http
+  GET /course-overview?course_name=Python%20Programming
+
+
+
