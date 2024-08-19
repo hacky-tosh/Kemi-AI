@@ -42,7 +42,7 @@
 - **Example**:
 
   ```http
-GET /course-chapter?course_name=AI%20Basics&chapter_name=Introduction%20to%20AI
+  GET /course-chapter?course_name=AI%20Basics&chapter_name=Introduction%20to%20AI
 
 
 
@@ -61,7 +61,7 @@ GET /course-chapter?course_name=AI%20Basics&chapter_name=Introduction%20to%20AI
 - **Example**:
 
   ```http
-POST /course-rate?course_name=Computer%20Vision%20Course&chapter_name=Introduction%20to%20Neural%20Networks&positive=false
+  POST /course-rate?course_name=Computer%20Vision%20Course&chapter_name=Introduction%20to%20Neural%20Networks&positive=false
   
 
 
