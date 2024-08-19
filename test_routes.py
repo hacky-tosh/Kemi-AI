@@ -3,7 +3,7 @@ from app.main import app
 from pymongo import MongoClient
 
 client = TestClient(app)
-mongo_client = MongoClient("mongodb+srv://ashu:KCL566yash@cosmocloud.sqt8n68.mongodb.net/")
+mongo_client = MongoClient("")
 db = mongo_client['test_db']
 
 def setup_module(module):

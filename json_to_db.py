@@ -1,8 +1,8 @@
 import json
 from pymongo import MongoClient, ASCENDING, DESCENDING
 
-# Connect to the local MongoDB instance
-client = MongoClient("mongodb+srv://ashu:KCL566yash@cosmocloud.sqt8n68.mongodb.net/")
+# add mongo db connection string
+client = MongoClient("")
 db = client.kimo_courses
 
 # Drop existing collection if any

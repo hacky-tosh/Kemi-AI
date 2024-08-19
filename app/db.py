@@ -1,4 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://ashu:KCL566yash@cosmocloud.sqt8n68.mongodb.net/")
+
+# add mongo db connection string
+client = MongoClient("")
 db = client.kimo_courses
