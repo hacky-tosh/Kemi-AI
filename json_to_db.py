@@ -1,8 +1,13 @@
 import json
 from pymongo import MongoClient, ASCENDING, DESCENDING
+from dotenv import load_dotenv
+import os
 
-# add mongo db connection string
-client = MongoClient("")
+load_dotenv()
+
+mongodb_uri = os.getenv("MONGODB_URI")
+
+client = MongoClient(mongodb_uri)
 db = client.kimo_courses
 
 # Drop existing collection if any
